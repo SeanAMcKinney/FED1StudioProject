@@ -1,2 +1,39 @@
 ﻿body {
+    background-color: black;
+    color: ghostwhite;
+    margin: 1em 5em 1em 5em;
+    border: 4px double ghostwhite;
+}
+
+header {
+    border-bottom: 4px double ghostwhite;
+}
+
+nav ul li {
+    display: inline-block;
+
+}
+
+a {
+    text-decoration: none;
+    color: ghostwhite;
+}
+
+nav a:hover {
+    text-decoration: underline;
+    color: ghostwhite;
+}
+
+.headline {
+    text-align: center;
+}
+
+article h1 {
+    font-size: 32px;
+    font-weight: bolder;
+    text-align: center;
+}
+
+footer {
+    border-top: 4px double ghostwhite;
 }
