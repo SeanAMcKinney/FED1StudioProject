@@ -9,14 +9,13 @@ header {
     border-bottom: 4px double ghostwhite;
 }
 
-nav ul li {
-    display: inline-block;
-
+nav {
+    border-bottom: 4px double ghostwhite;
 }
 
-a {
-    text-decoration: none;
-    color: ghostwhite;
+nav ul li {
+    display: inline-block;
+    padding-right: 2em;
 }
 
 nav a:hover {
@@ -24,14 +23,40 @@ nav a:hover {
     color: ghostwhite;
 }
 
+a {
+    text-decoration: none;
+    color: ghostwhite;
+}
+
 .headline {
     text-align: center;
 }
 
-article h1 {
+h1 {
     font-size: 32px;
     font-weight: bolder;
     text-align: center;
+}
+
+.contactInfo1 {
+    text-align: center; 
+    border-top: 2px solid ghostwhite;
+    border-bottom: 2px solid ghostwhite;
+    margin: 0 30% 0 30%
+}
+
+.contactInfo2 {
+    text-align: center;
+    border-top: 2px solid ghostwhite;
+    border-bottom: 2px solid ghostwhite;
+    margin: 10px 30% 0 30%
+}
+
+.contactInfo3 {
+    text-align: center;
+    border-top: 2px solid ghostwhite;
+    border-bottom: 2px solid ghostwhite;
+    margin: 10px 30% 30% 30%
 }
 
 footer {
