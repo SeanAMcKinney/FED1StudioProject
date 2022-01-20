@@ -1,2 +1,26 @@
 ﻿body {
+    
+}
+
+body {
+    background-color: black;
+}
+
+header {
+    color: antiquewhite;
+    border: 3px double white;
+    border-radius: 5px 5px;
+}
+
+main {
+    color: antiquewhite;
+}
+
+.headings {
+    color: rgba(228, 233, 237, 0.85);
+}
+
+#headerP {
+    font-weight: bold;
+    text-decoration: underline;
 }
