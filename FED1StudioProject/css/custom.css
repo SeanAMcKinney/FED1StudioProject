@@ -1,43 +1,69 @@
-﻿body {
+﻿@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Chakra+Petch&family=Fredoka+One&family=Rubik+Beastly&family=Space+Mono&display=swap');
+
+body {
     background-color: black;
     color: ghostwhite;
     margin: 1em 5em 1em 5em;
+    padding: 8px, 4px;
     border: 4px double ghostwhite;
+    font-size: 16px;
+    font-family: 'Fredoka one', fantasy, sans-serif;
 }
+
 
 header {
     border-bottom: 4px double ghostwhite;
     width: 100%;
+    box-sizing: border-box;
+    position: relative;
 }
 
-header h1 {
-    width: 74%;
-    float: left;
-}
+    header h1 {
+        width: 74%;
+        float: left;
+        font-family: 'Chakra Petch', fantasy, sans-serif;
+        font-size: 3em;
+        margin: 0 auto;
+        padding-top: .2em;
+    }
 
-header p {
-    width: 74%;
-    float: left;
-}
+    header p {
+        width: 74%;
+        float: left;
+    }
 
 .clear {
     clear: both;
 }
+
 header div.headerIcons {
     width: 25%;
     float: right;
     display: inline-block;
     box-sizing: border-box;
+    font-size: 2em;
+    text-align: right;
+    padding-right: 2em;
+    position: absolute;
+    top: 5%;
+}
+
+header i {
+    margin: .4em;
+}
+
+main {
+    margin: 0 1em;
 }
 
 nav {
     border-bottom: 4px double ghostwhite;
 }
 
-nav ul li {
-    display: inline-block;
-    padding-right: 2em;
-}
+    nav ul li {
+        display: inline-block;
+        padding-right: 2em;
+    }
 
 a:hover {
     text-decoration: underline;
@@ -56,14 +82,52 @@ a {
     text-align: center;
 }
 
+section#top {
+    background: url(../images/akin-cakiner-sfp4jUfgLhg-unsplash.jpg) no-repeat center center fixed;
+}
+
 h1 {
     font-size: 32px;
     font-weight: bolder;
     text-align: center;
 }
 
+div.aboutUs {
+    width: 100%;
+}
+
+img#tigerPic {
+    float: left;
+    width: 20%;
+    box-sizing: border-box;
+    margin: 1em 1em 1em 4em;
+    border: 1px solid ghostwhite;
+}
+
+h3.usText {
+    text-decoration: underline;
+}
+
+h3.usText, p.usText {
+    float: right;
+    width: 65%;
+    
+}
+
+section#fourSquare {
+    width: 98%
+}
+
+div#homeTopLeftImage {
+    float: left;
+    width: 49%;
+    height: 50%;
+    background: url('../images/pexels-lucas-pezeta-5403252.jpg') no-repeat center center content-box;
+    
+}
+
 .contactInfo1 {
-    text-align: center; 
+    text-align: center;
     border-top: 2px solid ghostwhite;
     border-bottom: 2px solid ghostwhite;
     margin: 0 30% 0 30%
@@ -80,9 +144,36 @@ h1 {
     text-align: center;
     border-top: 2px solid ghostwhite;
     border-bottom: 2px solid ghostwhite;
+    margin: 10px 30% 0 30%
+}
+
+.contactInfo4 {
+    text-align: center;
+    border-top: 2px solid ghostwhite;
+    border-bottom: 2px solid ghostwhite;
     margin: 10px 30% 30% 30%
 }
 
 footer {
     border-top: 4px double ghostwhite;
+    margin: 1em 1em 0;
 }
+
+    footer p {
+        width: 74%;
+        float: left;
+    }
+
+    footer div.footerIcons {
+        width: 25%;
+        float: right;
+        display: inline-block;
+        box-sizing: border-box;
+        font-size: 2em;
+        text-align: right;
+        padding-right: 2em;
+    }
+
+    footer i {
+        margin: .4em;
+    }
