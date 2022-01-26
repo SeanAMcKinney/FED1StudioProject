@@ -72,6 +72,8 @@
     <Content Include="css\custom.css" />
     <Content Include="images\akin-cakiner-sfp4jUfgLhg-unsplash.jpg" />
     <Content Include="images\gidon-wessner-WZRmGdzT3hU-unsplash.jpg" />
+    <Content Include="images\myLogo.png" />
+    <Content Include="images\pexels-lucas-pezeta-2352276.jpg" />
     <Content Include="images\pexels-lucas-pezeta-5403252.jpg" />
     <Content Include="Team.html" />
     <Content Include="index.html" />

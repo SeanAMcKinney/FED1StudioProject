@@ -5,7 +5,6 @@ body {
     color: ghostwhite;
     margin: 1em 5em 1em 5em;
     padding: 8px, 4px;
-    border: 4px double ghostwhite;
     font-size: 16px;
     font-family: 'Fredoka one', fantasy, sans-serif;
 }
@@ -16,30 +15,44 @@ header {
     width: 100%;
     box-sizing: border-box;
     position: relative;
+    height: 7.8em;
+    display: inline-block;
 }
 
-    header h1 {
-        width: 74%;
-        float: left;
-        font-family: 'Chakra Petch', fantasy, sans-serif;
-        font-size: 3em;
-        margin: 0 auto;
-        padding-top: .2em;
-    }
+div#logoContainer {
+    height: 7.8em;
+    float: left;
+    width: 25%;
+    padding-top: 1.5em;
+}
 
-    header p {
-        width: 74%;
-        float: left;
-    }
+img#logo {
+    float: left;
+    /*margin: 0 auto;*/
+}
+
+header h1 {
+    width: 49%;
+    float: left;
+    font-family: 'Chakra Petch', fantasy, sans-serif;
+    font-size: 3em;
+    margin: 0 auto;
+    padding-top: .2em;
+}
+
+header p {
+    width: 49%;
+    float: left;
+}
 
 .clear {
     clear: both;
 }
 
-header div.headerIcons {
-    width: 25%;
+div.headerIcons {
+    width: 100%;
     float: right;
-    display: inline-block;
+    display: block;
     box-sizing: border-box;
     font-size: 2em;
     text-align: right;
@@ -92,38 +105,92 @@ h1 {
     text-align: center;
 }
 
-div.aboutUs {
+p {
+    overflow: auto;
+}
+
+div#aboutUs {
+    height: 400px;
     width: 100%;
 }
 
 img#tigerPic {
     float: left;
-    width: 20%;
-    box-sizing: border-box;
+    width: 25%;
+    height: 380px;
     margin: 1em 1em 1em 4em;
-    border: 1px solid ghostwhite;
+    border: 4px double ghostwhite;
+    object-fit: contain cover;
 }
 
 h3.usText {
     text-decoration: underline;
+    height: 40px;
+}
+
+p.usText {
+    height: 342px;
+    margin: 0 auto;
 }
 
 h3.usText, p.usText {
     float: right;
     width: 65%;
-    
+    line-height: 2;
 }
 
 section#fourSquare {
-    width: 98%
+    width: 98%;
+    margin: 0 auto;
+}
+
+div#homeTopHalf {
+    display: inline-block;
+    height: 36em;
 }
 
 div#homeTopLeftImage {
     float: left;
     width: 49%;
-    height: 50%;
-    background: url('../images/pexels-lucas-pezeta-5403252.jpg') no-repeat center center content-box;
-    
+    object-position: center;
+    border: 4px double ghostwhite;
+}
+
+img#topLeft {
+    width: 100%;
+    height: auto;
+}
+
+div#homeTopRightText {
+    width: 49%;
+    height: auto;
+    float: right;
+    line-height: 2;
+}
+
+div#homeBottomHalf {
+    display: inline-block;
+    height: 36em;
+}
+
+
+div#homeBottomLeftText {
+    width: 49%;
+    height: auto;
+    line-height: 2;
+    float: left;
+}
+
+div#homeBottomRightImage {
+    float: right;
+    width: 49%;
+    object-position: center;
+    border: 4px double ghostwhite;
+}
+
+img#bottomRight {
+    width: 100%;
+    height: auto;
 }
 
 .contactInfo1 {
