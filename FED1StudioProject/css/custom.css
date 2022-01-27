@@ -8,7 +8,7 @@ body {
     font-size: 16px;
     font-family: 'Fredoka one', fantasy, sans-serif;
 }
-
+/* *********************************************   Header */
 header {
     border-bottom: 4px double ghostwhite;
     width: 100%;
@@ -67,6 +67,8 @@ main {
     margin: 0 1em;
 }
 
+/*************************************************************************   Navbar */
+
 nav {
     border-bottom: 4px double ghostwhite;
 }
@@ -88,6 +90,8 @@ a {
     text-decoration: none;
     color: ghostwhite;
 }
+
+/* *****************************************   Headline - About Us*/
 
 .headline {
     text-align: center;
@@ -158,6 +162,8 @@ h3.usText, p.usText {
     line-height: 2;
 }
 
+/**********************************************************************  2 X 2 Grid / Section Foursquare to Footer*/
+
 section#fourSquare {
     width: 98%;
     margin: 0 auto;
@@ -210,6 +216,35 @@ img#bottomRight {
     height: auto;
 }
 
+/**********************************************************************Classes.html page*/
+
+article#threeByThreeGrid {
+    padding:  0 12%;
+}
+
+section#classesThirdsTopics {
+    width: 98%;
+}
+
+div.firstThird {
+    width: 235px;
+    float: left;
+    border: 4px double ghostwhite;
+}
+
+div.secondThird {
+    width: 235px;
+    float: left;
+    border: 4px double ghostwhite;
+}
+
+div.thirdThird {
+    width: 235px;
+    float: left;
+    border: 4px double ghostwhite;
+}
+
+/*******************************************************************  Contact info on contact page*/
 .contactInfo1 {
     text-align: center;
     border-top: 2px solid ghostwhite;
@@ -237,6 +272,9 @@ img#bottomRight {
     border-bottom: 2px solid ghostwhite;
     margin: 10px 30% 30% 30%
 }
+
+
+/*********************************************************************    Footer*/
 
 footer {
     border-top: 4px double ghostwhite;
