@@ -65,6 +65,7 @@ header i {
 
 main {
     margin: 0 1em;
+    background: url(../images/akin-cakiner-sfp4jUfgLhg-unsplash.jpg) no-repeat center center fixed;
 }
 
 /*************************************************************************   Navbar */
@@ -95,10 +96,6 @@ a {
 
 .headline {
     text-align: center;
-}
-
-section#top {
-    background: url(../images/akin-cakiner-sfp4jUfgLhg-unsplash.jpg) no-repeat center center fixed;
 }
 
 h1 {
@@ -219,30 +216,189 @@ img#bottomRight {
 /**********************************************************************Classes.html page*/
 
 article#threeByThreeGrid {
-    padding:  0 12%;
+    padding: 0 12%;
 }
 
 section#classesThirdsTopics {
     width: 98%;
 }
 
-div.firstThird {
-    width: 235px;
-    float: left;
-    border: 4px double ghostwhite;
+
+div.firstThirdTop:hover {
+    color: silver;
+    border: 4px solid ghostwhite;
+    border-radius: 5px;
+    margin: calc(1em - 4px);
 }
 
-div.secondThird {
-    width: 235px;
-    float: left;
-    border: 4px double ghostwhite;
+div.secondThirdTop:hover {
+    color: silver;
+    border: 4px solid ghostwhite;
+    border-radius: 5px;
+    margin: calc(1em - 4px);
 }
 
-div.thirdThird {
-    width: 235px;
-    float: left;
-    border: 4px double ghostwhite;
+div.thirdThirdTop:hover {
+    color: silver;
+    border: 4px solid ghostwhite;
+    border-radius: 5px;
+    margin: calc(1em - 4px);
 }
+
+div.firstThirdBottom:hover {
+    color: silver;
+    border: 4px solid ghostwhite;
+    border-radius: 5px;
+    margin: calc(1em - 4px);
+}
+
+div.secondThirdBottom:hover {
+    color: silver;
+    border: 4px solid ghostwhite;
+    border-radius: 5px;
+    margin: calc(1em - 4px);
+}
+
+div.thirdThirdBottom:hover {
+    color: silver;
+    border: 4px solid ghostwhite;
+    border-radius: 5px;
+    margin: calc(1em - 4px);
+}
+
+div.firstThirdTop img, div.firstThirdBottom img,
+div.secondThirdTop img, div.secondThirdBottom img,
+div.thirdThirdTop img, div.thirdThirdBottom img
+{
+    width: 100%;
+    min-height: 290px;
+    max-height: 290px;
+}
+
+div.firstThirdTop {
+    width: 30%;
+    float: left;
+    margin: 1em;
+    box-sizing: content-box;
+}
+
+div.secondThirdTop {
+    width: 30%;
+    float: left;
+    margin: 1em;
+}
+
+div.thirdThirdTop {
+    width: 30%;
+    float: left;
+    margin: 1em;
+}
+
+div.firstThirdBottom {
+    width: 30%;
+    float: left;
+    margin: 1em;
+}
+
+div.secondThirdBottom {
+    width: 30%;
+    float: left;
+    margin: 1em;
+}
+
+div.thirdThirdBottom {
+    width: 30%;
+    float: left;
+    margin: 1em;
+}
+
+.firstThirdTop h3, .firstThirdBottom h3,
+.firstThirdTop p, .firstThirdBottom p,
+.secondThirdTop h3, .secondThirdBottom h3,
+.secondThirdTop p, .secondThirdBottom p,
+.thirdThirdTop h3, .thirdThirdBottom h3,
+.thirdThirdTop p, .thirdThirdBottom p {
+    padding: 1em;
+}
+
+.firstThirdTop h3, .firstThirdBottom h3,
+.secondThirdTop h3, .secondThirdBottom h3,
+.thirdThirdTop h3, .thirdThirdBottom h3 {
+    text-align: center;
+    font-weight: bolder;
+    text-decoration: underline;
+    margin: 0 3em;
+}
+
+/********************************************************************** Classes tables Page */
+section#tableTop {
+    background-color: none;
+}
+
+h2.tableTitle {
+    text-align: center;
+    margin: 0 auto;
+}
+
+.cssTables {
+    text-align: left;
+    margin: 0 auto;
+}
+
+img.tableLogo {
+    margin: 0 49%;
+}
+
+/*******************************************************************  Teams page */
+
+article#teamRightSideBar {
+    width: 25%;
+    float: right;
+    display: block;
+}
+
+section.barRight h2, section.barRight h2 {
+    margin: 0 auto;
+}
+
+.barRight h2, .barRight a {
+    padding: 2em, 2em;
+}
+
+article#teamLeftContent img {
+    max-width: 25%;
+    height: 100%;
+    border: 1px solid ghostwhite;
+    border-radius: 5px;  
+}
+
+article#teamLeftContent p  {
+    float: right;
+    max-width: 70%;
+    height: 88%;
+    text-align: left;
+    line-height: 2em;
+}
+
+article#teamLeftContent h2 {
+    text-align: center;
+    margin: 2em, auto;
+    text-decoration-line: underline;
+}
+
+article#teamLeftContent div {
+    max-height: 98%;
+    width: 98%;
+}
+
+article#teamLeftContent section {
+    max-height: 98%;
+    max-width: 74%;
+}
+
+
+
+
 
 /*******************************************************************  Contact info on contact page*/
 .contactInfo1 {
