@@ -6,8 +6,7 @@ body {
     padding: 8px 4px;
     font-size: 16px;
     font-family: 'Fredoka one', fantasy, sans-serif;
-    background: url(../images/akin-cakiner-sfp4jUfgLhg-unsplash.jpg) no-repeat center center fixed;
-    background-color: black;
+    background: url(../images/akin-cakiner-sfp4jUfgLhg-unsplash.jpg) no-repeat center center fixed black;
 }
 /* *********************************************   Header */
 header {
