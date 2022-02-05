@@ -65,7 +65,6 @@ header i {
 
 main {
     margin: 0 1em;
-    /*background: url(../images/akin-cakiner-sfp4jUfgLhg-unsplash.jpg) no-repeat center center fixed;*/
 }
 
 /*************************************************************************   Navbar */
@@ -105,7 +104,6 @@ h1 {
 }
 
 div#aboutUs {
-    /*height: 400px;*/
     width: 100%;
 }
 
@@ -113,6 +111,7 @@ div#aboutUs {
         float: left;
         width: 20%;
         padding: 0 0 0 4em;
+        margin: 0 2em 0 2em;
     }
 
     div#aboutUs div:last-child {
@@ -125,13 +124,9 @@ div#aboutUs {
             width: 80%;
         }
 
-img#tigerPic {
+img#futureCat {
     width: 100%;
-    max-width: 220px;
-    /*height: 380px;*/
-    /*margin: 1em 1em 1em 4em;*/
     border: 4px double ghostwhite;
-    /*object-fit: contain cover;*/
 }
 
 /******************************************************************************************************* Why Choose Us*/
@@ -268,8 +263,7 @@ div.thirdThirdBottom:hover {
 
 div.firstThirdTop img, div.firstThirdBottom img,
 div.secondThirdTop img, div.secondThirdBottom img,
-div.thirdThirdTop img, div.thirdThirdBottom img
-{
+div.thirdThirdTop img, div.thirdThirdBottom img {
     width: 100%;
     min-height: 290px;
     max-height: 290px;
@@ -369,10 +363,10 @@ article#teamLeftContent img {
     max-width: 25%;
     height: 100%;
     border: 1px solid ghostwhite;
-    border-radius: 5px;  
+    border-radius: 5px;
 }
 
-article#teamLeftContent p  {
+article#teamLeftContent p {
     float: right;
     max-width: 70%;
     height: 88%;
