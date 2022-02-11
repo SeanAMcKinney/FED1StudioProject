@@ -67,6 +67,10 @@ main {
     margin: 0 1em;
 }
 
+/*main p {
+    text-indent: 4em;
+}*/
+
 /*************************************************************************   Navbar */
 
 nav {
@@ -106,6 +110,10 @@ h1 {
 div#aboutUs {
     width: 100%;
 }
+
+    div#aboutUs h3 {
+      padding-left: 38%;
+    }
 
     div#aboutUs div:first-child {
         float: left;
@@ -159,6 +167,10 @@ h3.usText, p.usText {
 section#fourSquare {
     width: 98%;
     margin: 0 auto;
+}
+
+section#fourSquare h3 {
+    text-align: center;
 }
 
 div#homeTopHalf {
@@ -372,12 +384,14 @@ article#teamLeftContent p {
     height: 88%;
     text-align: left;
     line-height: 2em;
+    text-indent: 4em;
 }
 
 article#teamLeftContent h2 {
     text-align: center;
     margin: 2em, auto;
     text-decoration-line: underline;
+    padding-left: 35%;
 }
 
 article#teamLeftContent div {
@@ -390,6 +404,9 @@ article#teamLeftContent section {
     max-width: 74%;
 }
 
+#teamH1 {
+    padding-left: 25%;
+}
 
 
 
