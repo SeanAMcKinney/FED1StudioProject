@@ -70,6 +70,7 @@
     <Content Include="Classes.html" />
     <Content Include="Contact.html" />
     <Content Include="css\custom.css" />
+    <Content Include="favicon.ico" />
     <Content Include="images\akin-cakiner-sfp4jUfgLhg-unsplash.jpg" />
     <Content Include="images\classpics\CatHerding.jpg" />
     <Content Include="images\classpics\CATstrophe.jpg" />
