@@ -355,6 +355,10 @@ img.tableLogo {
     margin: 0 49%;
 }
 
+th {
+    font-weight: 100 !important;
+}
+
 /*******************************************************************  Teams page */
 
 article#teamRightSideBar {
