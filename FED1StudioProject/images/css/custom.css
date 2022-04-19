@@ -1,0 +1,474 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Chakra+Petch&family=Fredoka+One&family=Rubik+Beastly&family=Space+Mono&display=swap');
+
+body {
+    color: ghostwhite;
+    margin: 1em 5em 1em 5em;
+    padding: 8px 4px;
+    font-size: 16px;
+    font-family: 'Fredoka one', fantasy, sans-serif;
+    background: url(../images/akin-cakiner-sfp4jUfgLhg-unsplash.jpg) no-repeat center center fixed black;
+}
+/* *********************************************   Header */
+header {
+    border-bottom: 4px double ghostwhite;
+    width: 100%;
+    box-sizing: border-box;
+    position: relative;
+    height: 7.8em;
+    display: inline-block;
+}
+
+div#logoContainer {
+    height: 7.8em;
+    float: left;
+    width: 25%;
+    padding-top: 1.5em;
+}
+
+img#logo {
+    float: left;
+}
+
+header h1 {
+    width: 49%;
+    float: left;
+    font-family: 'Chakra Petch', fantasy, sans-serif;
+    font-size: 3em;
+    margin: 0 auto;
+    padding-top: .2em;
+}
+
+header p {
+    width: 49%;
+    float: left;
+}
+
+.clear {
+    clear: both;
+}
+
+div.headerIcons {
+    width: 100%;
+    float: right;
+    display: block;
+    box-sizing: border-box;
+    font-size: 2em;
+    text-align: right;
+    padding-right: 2em;
+    position: absolute;
+    top: 5%;
+}
+
+header i {
+    margin: .4em;
+}
+
+main {
+    margin: 0 1em;
+}
+
+/*main p {
+    text-indent: 4em;
+}*/
+
+/*************************************************************************   Navbar */
+
+nav {
+    border-bottom: 4px double ghostwhite;
+}
+
+    nav ul li {
+        display: inline-block;
+        padding-right: 2em;
+    }
+
+a:hover {
+    text-decoration: underline;
+}
+
+.active {
+    text-decoration: underline;
+}
+
+a {
+    text-decoration: none;
+    color: ghostwhite;
+}
+
+/* *****************************************   Headline - About Us*/
+
+.headline {
+    text-align: center;
+}
+
+h1 {
+    font-size: 32px;
+    font-weight: bolder;
+    text-align: center;
+}
+
+div#aboutUs {
+    width: 100%;
+}
+
+    div#aboutUs h3 {
+      padding-left: 38%;
+    }
+
+    div#aboutUs div:first-child {
+        float: left;
+        width: 20%;
+        padding: 0 0 0 4em;
+        margin: 0 2em 0 2em;
+    }
+
+    div#aboutUs div:last-child {
+        float: left;
+        width: 80%;
+    }
+
+        div#aboutUs div:last-child p {
+            max-width: 800px;
+            width: 80%;
+        }
+
+img#futureCat {
+    width: 100%;
+    border: 4px double ghostwhite;
+}
+
+/******************************************************************************************************* Why Choose Us*/
+
+#chooseUs {
+    float: left;
+    width: 100%;
+}
+
+    #chooseUs h1 {
+        width: 100%;
+    }
+
+h3.usText {
+    text-decoration: underline;
+    height: 40px;
+}
+
+p.usText {
+    /*height: 342px;*/
+    margin: 0 auto;
+}
+
+h3.usText, p.usText {
+    line-height: 2;
+}
+
+/**********************************************************************  2 X 2 Grid / Section Foursquare to Footer*/
+
+section#fourSquare {
+    width: 98%;
+    margin: 0 auto;
+}
+
+section#fourSquare h3 {
+    text-align: center;
+}
+
+div#homeTopHalf {
+    display: block;
+}
+
+div#homeTopLeftImage {
+    float: left;
+    width: 49%;
+    object-position: center;
+    border: 4px double ghostwhite;
+}
+
+img#topLeft {
+    width: 100%;
+    height: auto;
+}
+
+div#homeTopRightText {
+    width: 49%;
+    height: auto;
+    float: right;
+    line-height: 2;
+}
+
+div#homeBottomHalf {
+    display: block;
+}
+
+
+div#homeBottomLeftText {
+    width: 45%;
+    height: auto;
+    line-height: 2;
+    float: left;
+}
+
+div#homeBottomRightImage {
+    float: right;
+    width: 49%;
+    object-position: center;
+    border: 4px double ghostwhite;
+}
+
+img#bottomRight {
+    width: 100%;
+    height: auto;
+}
+
+/**********************************************************************Classes.html page*/
+
+article#threeByThreeGrid {
+    padding: 0 12%;
+}
+
+section#classesThirdsTopics {
+    width: 98%;
+}
+
+
+div.firstThirdTop:hover {
+    color: silver;
+    border: 4px solid ghostwhite;
+    border-radius: 5px;
+    margin: calc(1em - 4px);
+}
+
+div.secondThirdTop:hover {
+    color: silver;
+    border: 4px solid ghostwhite;
+    border-radius: 5px;
+    margin: calc(1em - 4px);
+}
+
+div.thirdThirdTop:hover {
+    color: silver;
+    border: 4px solid ghostwhite;
+    border-radius: 5px;
+    margin: calc(1em - 4px);
+}
+
+div.firstThirdBottom:hover {
+    color: silver;
+    border: 4px solid ghostwhite;
+    border-radius: 5px;
+    margin: calc(1em - 4px);
+}
+
+div.secondThirdBottom:hover {
+    color: silver;
+    border: 4px solid ghostwhite;
+    border-radius: 5px;
+    margin: calc(1em - 4px);
+}
+
+div.thirdThirdBottom:hover {
+    color: silver;
+    border: 4px solid ghostwhite;
+    border-radius: 5px;
+    margin: calc(1em - 4px);
+}
+
+div.firstThirdTop img, div.firstThirdBottom img,
+div.secondThirdTop img, div.secondThirdBottom img,
+div.thirdThirdTop img, div.thirdThirdBottom img {
+    width: 100%;
+    min-height: 290px;
+    max-height: 290px;
+}
+
+div.firstThirdTop {
+    width: 30%;
+    float: left;
+    margin: 1em;
+    box-sizing: content-box;
+}
+
+div.secondThirdTop {
+    width: 30%;
+    float: left;
+    margin: 1em;
+}
+
+div.thirdThirdTop {
+    width: 30%;
+    float: left;
+    margin: 1em;
+}
+
+div.firstThirdBottom {
+    width: 30%;
+    float: left;
+    margin: 1em;
+}
+
+div.secondThirdBottom {
+    width: 30%;
+    float: left;
+    margin: 1em;
+}
+
+div.thirdThirdBottom {
+    width: 30%;
+    float: left;
+    margin: 1em;
+}
+
+.firstThirdTop h3, .firstThirdBottom h3,
+.firstThirdTop p, .firstThirdBottom p,
+.secondThirdTop h3, .secondThirdBottom h3,
+.secondThirdTop p, .secondThirdBottom p,
+.thirdThirdTop h3, .thirdThirdBottom h3,
+.thirdThirdTop p, .thirdThirdBottom p {
+    padding: 1em;
+}
+
+.firstThirdTop h3, .firstThirdBottom h3,
+.secondThirdTop h3, .secondThirdBottom h3,
+.thirdThirdTop h3, .thirdThirdBottom h3 {
+    text-align: center;
+    font-weight: bolder;
+    text-decoration: underline;
+    margin: 0 3em;
+}
+
+/********************************************************************** Classes tables Page */
+section#tableTop {
+    background-color: none;
+}
+
+h2.tableTitle {
+    text-align: center;
+    margin: 0 auto;
+}
+
+.cssTables {
+    text-align: left;
+    margin: 0 auto;
+}
+
+img.tableLogo {
+    margin: 0 49%;
+}
+
+th {
+    font-weight: 100 !important;
+}
+
+/*******************************************************************  Teams page */
+
+article#teamRightSideBar {
+    width: 25%;
+    float: right;
+    display: block;
+}
+
+section.barRight h2, section.barRight h2 {
+    margin: 0 auto;
+}
+
+.barRight h2, .barRight a {
+    padding: 2em, 2em;
+}
+
+article#teamLeftContent img {
+    max-width: 25%;
+    height: 100%;
+    border: 1px solid ghostwhite;
+    border-radius: 5px;
+}
+
+article#teamLeftContent p {
+    float: right;
+    max-width: 70%;
+    height: 88%;
+    text-align: left;
+    line-height: 2em;
+    text-indent: 4em;
+}
+
+article#teamLeftContent h2 {
+    text-align: center;
+    margin: 2em, auto;
+    text-decoration-line: underline;
+    padding-left: 35%;
+}
+
+article#teamLeftContent div {
+    max-height: 98%;
+    width: 98%;
+}
+
+article#teamLeftContent section {
+    max-height: 98%;
+    max-width: 74%;
+}
+
+#teamH1 {
+    padding-left: 25%;
+}
+
+
+
+
+/*******************************************************************  Contact info on contact page*/
+.contactInfo1 {
+    text-align: center;
+    border-top: 2px solid ghostwhite;
+    border-bottom: 2px solid ghostwhite;
+    margin: 0 30% 0 30%
+}
+
+.contactInfo2 {
+    text-align: center;
+    border-top: 2px solid ghostwhite;
+    border-bottom: 2px solid ghostwhite;
+    margin: 10px 30% 0 30%
+}
+
+.contactInfo3 {
+    text-align: center;
+    border-top: 2px solid ghostwhite;
+    border-bottom: 2px solid ghostwhite;
+    margin: 10px 30% 0 30%
+}
+
+.contactInfo4 {
+    text-align: center;
+    border-top: 2px solid ghostwhite;
+    border-bottom: 2px solid ghostwhite;
+    margin: 10px 30% 30% 30%
+}
+
+
+/*********************************************************************    Footer*/
+
+footer {
+    border-top: 4px double ghostwhite;
+    margin: 1em 1em 0;
+    width: 100%;
+    float: left;
+}
+
+    footer p {
+        width: 74%;
+        float: left;
+    }
+
+    footer div.footerIcons {
+        width: 25%;
+        float: right;
+        display: inline-block;
+        box-sizing: border-box;
+        font-size: 2em;
+        text-align: right;
+        padding-right: 2em;
+    }
+
+    footer i {
+        margin: .4em;
+    }
